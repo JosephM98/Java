@@ -1,0 +1,58 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        System.out.print("Hello World!");
+        System.out.println("Hello Cesar");
+        System.out.println("Hello Gionna");
+
+        int herGrade = 10;
+        double herGpa = 2.7;
+        boolean certified = false;
+        String name = "Gionna";
+        char initial = 'G';
+
+        System.out.println("Student: " + name);
+        System.out.println("Grade: " + herGrade);
+        System.out.println("GPA: " + herGpa);
+        System.out.println("Certified: " + certified);
+
+        int hisGrade = 11;
+        int hisGpa = (int) 2.9;
+        boolean certified2 = false;
+        String name2 = "David";
+        char initial2 = 'd';
+
+        System.out.println("Student: " + name2);
+        System.out.println("Grade: " + hisGrade);
+        System.out.println("GPA: " + hisGpa);
+        System.out.println("Certified: " + certified2);
+
+        //Test cases
+        double castDouble = (double)3;
+        System.out.println("My cast double of 3 " + castDouble);
+        int castInt = (int)6.99;
+        System.out.println("My cast int of 6.99 " + castInt);
+        int myBigInt;
+        myBigInt = 2147483647;
+        System.out.println("My big int: " + myBigInt);
+        myBigInt++;
+        System.out.println("My big int plus 1: " + myBigInt);
+
+        long Bezos = 21474836470L;
+        System.out.println("Bezos' Account: " + Bezos);
+
+        byte bryson = 127;
+        System.out.println("Bryson's Account: " + bryson);
+        bryson = (byte) (bryson + 10);
+        System.out.println("Bryson's account after beating Gionna in some game: " + bryson);
+
+        float aFloat = 3.5f;
+        System.out.println("A float: " + aFloat);
+
+
+    }
+
+}
